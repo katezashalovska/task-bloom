@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Bloom | Student Planner</title>
+    <meta name="description" content="Organize your life, studies, and tasks with Task Bloom. The beautifully simple student planner and to-do list.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons for UI elements -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.svg" alt="Task Bloom" class="app-icon-small-img">
+            <span>Task Bloom</span>
+        </div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#download" class="btn btn-primary btn-small">Get the App</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="pill">Student Planner & To-Do List</div>
+            <h1>Master your day with <span class="highlight">Task Bloom</span></h1>
+            <p>Organize your studies, chores, and personal life in one beautifully simple app. Never miss a deadline again.</p>
+            
+            <div class="cta-buttons">
+                <a href="#download" class="btn btn-primary">
+                    <i class="ph-fill ph-google-play-logo"></i> Play Store
+                </a>
+            </div>
+            
+            <div class="social-proof">
+                <div class="avatars">
+                    <div class="avatar">A</div>
+                    <div class="avatar">R</div>
+                    <div class="avatar">M</div>
+                </div>
+                <span>Join 10,000+ organized students</span>
+            </div>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="phone-mockup">
+                <div class="phone-screen">
+                    <!-- Top Bar -->
+                    <div class="app-header">
+                        <div class="user-avatar"><i class="ph ph-user"></i></div>
+                        <div class="date-selector">
+                            <i class="ph ph-caret-left"></i>
+                            <div class="current-date">
+                                <span class="day">Friday</span>
+                                <strong><i class="ph ph-calendar-blank"></i> October 17</strong>
+                            </div>
+                            <i class="ph ph-caret-right"></i>
+                        </div>
+                        <div class="settings-btn"><i class="ph ph-faders"></i></div>
+                    </div>
+                    
+                    <!-- Greeting -->
+                    <div class="greeting-section">
+                        <h2>Hello, Roman</h2>
+                        <p>Have a nice day</p>
+                        <!-- Decorative dots -->
+                        <div class="dot dot-yellow"></div>
+                        <div class="dot dot-blue"></div>
+                        <div class="dot dot-pink"></div>
+                        <div class="dot dot-pink-small"></div>
+                    </div>
+                    
+                    <!-- Tabs -->
+                    <div class="tabs">
+                        <div class="tab active">All task</div>
+                        <div class="tab">Home</div>
+                        <div class="tab">Education</div>
+                        <div class="tab">Buy</div>
+                        <div class="trash-btn"><i class="ph ph-trash"></i></div>
+                    </div>
+                    
+                    <!-- Task List -->
+                    <div class="task-list">
+                        <div class="task-card">
+                            <div class="checkbox"></div>
+                            <div class="task-info">
+                                <span class="category">Pay rent</span>
+                                <h4>Pay rent till January</h4>
+                                <span class="date">17.10.2025</span>
+                            </div>
+                            <div class="task-meta">
+                                <div class="priority priority-high">H</div>
+                                <i class="ph ph-dots-three-vertical"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="task-card">
+                            <div class="checkbox checked"><i class="ph-bold ph-check"></i></div>
+                            <div class="task-info">
+                                <span class="category">Buy flower</span>
+                                <h4>Flower for wife🌸</h4>
+                                <span class="date">17.10.2025</span>
+                            </div>
+                            <div class="task-meta">
+                                <i class="ph ph-map-pin"></i>
+                                <div class="priority priority-medium">M</div>
+                                <i class="ph ph-dots-three-vertical"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="task-card">
+                            <div class="checkbox"></div>
+                            <div class="task-info">
+                                <span class="category">Shopping</span>
+                                <h4>Buy new clothes</h4>
+                                <span class="date">17.10.2025</span>
+                            </div>
+                            <div class="task-meta">
+                                <div class="priority priority-low">L</div>
+                                <i class="ph ph-dots-three-vertical"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom Nav -->
+                    <div class="bottom-nav">
+                        <div class="nav-item active"><i class="ph-fill ph-calendar-check"></i></div>
+                        <div class="nav-item"><i class="ph ph-list-checks"></i></div>
+                        <div class="fab">
+                            <i class="ph ph-plus"></i>
+                        </div>
+                        <div class="nav-item"><i class="ph ph-calendar-blank"></i></div>
+                        <div class="nav-item"><i class="ph ph-notebook"></i></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Floating Elements -->
+            <div class="floating-badge badge-1">
+                <div class="icon-circle"><i class="ph-fill ph-check-circle"></i></div>
+                <span>Stay on top of tasks</span>
+            </div>
+            <div class="floating-badge badge-2">
+                <div class="priority priority-high">H</div>
+                <span>Prioritize easily</span>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Everything you need to succeed</h2>
+            <p>Task Bloom combines simplicity with powerful features tailored for students.</p>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="ph ph-folders"></i></div>
+                <h3>Smart Categories</h3>
+                <p>Organize tasks into Education, Home, Shopping and more. Keep your mind decluttered by focusing on one area at a time.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="ph ph-sort-ascending"></i></div>
+                <h3>Priority Levels</h3>
+                <p>Not all tasks are created equal. Mark tasks as High, Medium, or Low priority to tackle what matters most first.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="ph ph-arrows-clockwise"></i></div>
+                <h3>Recurring Tasks</h3>
+                <p>Set up daily, weekly, or monthly habits (like reading or hitting the gym) and let Task Bloom remind you automatically.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="download">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="logo.svg" alt="Task Bloom Logo" class="app-icon-large-img">
+                <h2>Ready to bloom?</h2>
+                <p>Download Task Bloom today and start organizing your life the smart way.</p>
+            </div>
+            
+            <div class="cta-buttons center">
+                <a href="https://play.google.com/store/apps/details?id=com.smartfamily.studentplanner" target="_blank" class="btn btn-primary btn-large">
+                    <i class="ph-fill ph-google-play-logo"></i> Get it on Google Play
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Smart Family Apps. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
