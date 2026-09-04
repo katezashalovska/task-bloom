@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">@color/white</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#2F2E2E</color>
+    <color name="icon_color">#CACACA</color>
+    <color name="secondary_text_color">@color/black</color>
+    <color name="date_picker_background">@color/black</color>
+    <color name="background">@color/purple_200</color>
+    <color name="circle_stroke_color">#FF2196F3</color>
+    <color name="circle_fill_color">#442196F3</color>
+
+    <color name="checked_icon_color">@color/white</color>
+    <color name="unchecked_icon_color">@color/grey</color>
+
+    <color name="task_title_color">#FFFFFF</color>
+    <color name="task_description_color">#ADAAAA</color>
+    <color name="task_date_color">@color/purple_200</color>
+
+    <color name="color_main">#CACACA</color>
+    <color name="text_color">@color/purple_200</color>
+
+    <color name="loader_screen_background">#5555A4</color>
+
+    <color name="input_background_color">#0C0C16</color>
+    <color name="input_stroke_color">#141426</color>
+
+    <!-- popup menu to do list selector -->
+    <color name="gray_default">#444444</color>
+    <color name="popup_item_pressed">#555555</color>
+    <color name="red_pressed">#CC0000</color>
+
+    <color name="screen_background">#0C0C16</color>
+    <color name="login_page_main_text">#FFFFFF</color>
+    <color name="login_page_secondary_text">#ADADAD</color>
+    <color name="input_border_color">#444E89</color>
+    <color name="middle_stroke_color">#252525</color>
+    <color name="provider_button_background">#16161E</color>
+    <color name="provider_button_text_color">#FFFFFF</color>
+    <color name="provider_button_border_color">#16161E</color>
+    <color name="edit_text_background">#0C0C16</color>
+
+    <color name="otp_empty">#0C0C16</color>
+    <color name="otp_filled">#5017172A</color>
+    <color name="otp_border_active">#444E89</color>
+    <color name="otp_border_inactive">#66444E89</color>
+    <color name="red">#FF1C45</color>
+
+    <!-- to do list page colors -->
+    <color name="page_background_color">#0c0c16</color>
+    <color name="hello_color">#FFFFFF</color>
+    <color name="have_a_nice_day_color">#ADADAD</color>
+    <color name="month_color">#FFFFFF</color>
+    <color name="day_of_week_color">#ADADAD</color>
+    <color name="empty_to_do_plug_background">#0c0c16</color>
+    <color name="filter_item_color">#4b4b55</color>
+    <color name="empty_to_do_list_stroke_color">#141426</color>
+    <color name="task_popup_window_background_color">#444444</color>
+    <color name="ic_pencil_edit_color">#FFFFFF</color>
+    <color name="no_task_yet_text_color">#B2E1E1E1</color>
+
+    <!-- to do list task block -->
+    <color name="to_do_list_task_background_color">#0f111e</color>
+    <color name="to_do_list_task_stroke_color">#141426</color>
+    <color name="subtitle_text_color">#FFFFFF</color>
+    <color name="title_text_color">#848A94</color>
+    <color name="date_text_color">#848A94</color>
+    <color name="to_checkbox_background_unselected_color">#0f111e</color>
+    <color name="to_checkbox_stroke_unselected_color">#31365b</color>
+    <color name="ic_line_color">#121212</color>
+
+    <!-- to do list messages -->
+    <color name="added_success_background_color">#212240</color>
+    <color name="added_success_stroke_color">#212240</color>
+    <color name="added_success_text_color">#867ff7</color>
+    <color name="added_success_icon_color">#8f89ed</color>
+
+    <!-- Bottom menu navigation -->
+    <color name="icons_out_selected_color">#FFFFFF</color>
+    <color name="icons_out_color">#464953</color>
+    <color name="bottom_menu_nav_background_color">#000000</color>
+    <color name="bottom_icons_fill_color">#00000000</color>
+    <color name="bottom_icons_stroke_color">#464953</color>
+    <color name="bottom_icons_stroke_selected_color">#000000</color>
+
+    <!-- add task block -->
+    <color name="add_task_background_color">#0C0C16</color>
+    <color name="names_title_color">#FFFFFF</color>
+    <color name="names_hint_color">#9D9D9D</color>
+    <color name="internal_text_color">#F9F9F9</color>
+    <color name="entered_text_color">#F9F9F9</color>
+
+    <!-- Checklist -->
+    <color name="progress_text_color">#8CFFFFFF</color>
+    <color name="checklist_item_stroke_color">#0f111e</color>
+    <color name="checklist_block_background">#0f111e</color>
+    <color name="add_item_stroke_color">#31365b</color>
+
+    <!-- Settings activity -->
+    <color name="settings_title_color">#FFFFFF</color>
+    <color name="delete_all_completed_task_color">#8080FF</color>
+    <color name="switch_track_not_active_color">#4C5065</color>
+    <color name="switch_thumb_color">#000000</color>
+    <color name="tdl_background_color">#31365b</color>
+
+    <!-- Profile activity -->
+    <color name="circle_background">#0C0C16</color>
+    <color name="button_background_gradient_start">#6E7FDD</color>
+    <color name="button_background_gradient_center">#444E89</color>
+    <color name="button_background_gradient_end">#6E7FDD</color>
+    <color name="button_border_gradient_start">#6E7FDD</color>
+    <color name="button_border_gradient_center">#444E89</color>
+    <color name="button_border_gradient_end">#6E7FDD</color>
+    <color name="icon_color_on_background">#C7C7C9</color>
+
+    <!-- Routine fragment -->
+    <color name="rounded_background_for_filter_menu_color">#0C0C16</color>
+
+    <!-- Status bar and navigation bar colors -->
+    <color name="status_bar_dark">#0C0C16</color>
+    <color name="navigation_bar_dark">#0C0C16</color>
+    <color name="status_bar_light">#FFFFFF</color>
+    <color name="navigation_bar_light">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/empty_to_do_plug_background" /> <!-- Цвет фона -->
+    <corners android:radius="40dp" /> <!-- Радиус скругления -->
+    <stroke android:width="2dp" android:color="@color/empty_to_do_plug_background" /> <!-- Обводка (опционально) -->
+</shape>

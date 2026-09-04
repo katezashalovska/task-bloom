@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/empty_to_do_plug_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/messageText"
+        android:text="Are you sure you want to delete this task"
+        android:textSize="16sp"
+        android:textColor="@color/settings_title_color"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnNo"
+            android:text="@string/no"
+            android:textAllCaps="false"
+            android:background="@drawable/alert_dialog_button_bg"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnYes"
+            android:text="@string/yes"
+            android:layout_marginStart="8dp"
+            android:textAllCaps="false"
+            android:background="@drawable/alert_dialog_button_bg"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

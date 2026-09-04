@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Состояние: отмеченный чекбокс -->
+    <item android:state_checked="true">
+        <layer-list>
+            <!-- Фон -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#6E7FDD"/> <!-- Цвет заливки -->
+                    <corners android:radius="5dp"/> <!-- Скругленные углы -->
+                </shape>
+            </item>
+            <!-- Галочка -->
+            <item android:gravity="center"
+                android:drawable="@drawable/ic_line"/>
+        </layer-list>
+    </item>
+
+    <!-- Состояние: неотмеченный чекбокс -->
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/to_checkbox_background_unselected_color"/> <!-- Цвет фона -->
+                    <stroke android:width="2dp" android:color="@color/to_checkbox_stroke_unselected_color"/> <!-- Обводка -->
+                    <corners android:radius="5dp"/> <!-- Скругленные углы -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

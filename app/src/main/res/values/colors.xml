@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">@color/background</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#545353</color>
+    <color name="icon_color">#000000</color>
+    <color name="secondary_text_color">@color/white</color>
+    <color name="date_picker_background">@color/white</color>
+    <color name="background">@color/purple_500</color>
+    <color name="circle_stroke_color">#FF2196F3</color>
+    <color name="circle_fill_color">#442196F3</color>
+
+    <color name="checked_icon_color">#5555A4</color>
+    <color name="unchecked_icon_color">#464953</color>
+
+    <color name="task_title_color">#000000</color>
+    <color name="task_description_color">#565454</color>
+    <color name="task_date_color">#044673</color>
+
+    <color name="color_main">@color/black</color>
+    <color name="text_color">@color/black</color>
+
+    <color name="input_background_color">#FFFFFF</color>
+    <color name="input_stroke_color">#e7e8ee</color>
+    <color name="pop_menu_trash">#FF3232</color>
+
+    <!-- popup menu to do list selector -->
+    <color name="gray_default">#444444</color>
+    <color name="popup_item_pressed">#E1E1ED</color>
+    <color name="red_pressed">#CC0000</color>
+
+    <color name="loader_screen_background">#5555A4</color>
+
+    <color name="screen_background">#FFFFFF</color>
+    <color name="login_page_main_text">#34315E</color>
+    <color name="login_page_secondary_text">#6D6D6D</color>
+    <color name="input_border_color">#D4D4D4</color>
+    <color name="middle_stroke_color">#D4D4D4</color>
+    <color name="provider_button_background">#FFFFFF</color>
+    <color name="provider_button_text_color">#000000</color>
+    <color name="provider_button_border_color">#D4D4D4</color>
+    <color name="edit_text_background">#FFFFFF</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="otp_empty">#FFFFFF</color>
+    <color name="otp_filled">#FFFFFF</color>
+    <color name="otp_border_active">#6E7FDD</color>
+    <color name="otp_border_inactive">#D4D4D4</color>
+    <color name="red">#FF1C45</color>
+
+    <!-- to do list page colors -->
+    <color name="page_background_color">#FFFFFF</color>
+    <color name="hello_color">#333361</color>
+    <color name="have_a_nice_day_color">#6D6D6D</color>
+    <color name="month_color">#000000</color>
+    <color name="day_of_week_color">#ADADAD</color>
+    <color name="empty_to_do_plug_background">#FFFFFF</color>
+    <color name="filter_item_color">#bebebe</color>
+    <color name="empty_to_do_list_stroke_color">#D4D4D4</color>
+    <color name="task_popup_window_background_color">#FFFFFF</color>
+    <color name="ic_pencil_edit_color">#000000</color>
+    <color name="no_task_yet_text_color">#B2393939</color>
+
+    <!-- to do list task block -->
+    <color name="to_do_list_task_background_color">#fbfaff</color>
+    <color name="to_do_list_task_stroke_color">#e7e8ee</color>
+    <color name="title_text_color">#848A94</color>
+    <color name="subtitle_text_color">#333361</color>
+    <color name="date_text_color">#848A94</color>
+    <color name="to_checkbox_background_unselected_color">#FFFFFF</color>
+    <color name="to_checkbox_stroke_unselected_color">#e7e8ee</color>
+    <color name="ic_line_color">#FFFFFF</color>
+
+    <!-- to do list messages -->
+    <color name="added_success_background_color">#e8eaff</color>
+    <color name="added_success_stroke_color">#e8eaff</color>
+    <color name="added_success_text_color">#7d7ddf</color>
+    <color name="added_success_icon_color">#8a8ae9</color>
+
+    <!-- Bottom menu navigation -->
+    <color name="icons_out_selected_color">#FFFFFF</color>
+    <color name="icons_out_color">#939393</color>
+    <color name="bottom_menu_nav_background_color">#fbfaff</color>
+    <color name="bottom_icons_fill_color">#FFFFFF</color>
+    <color name="bottom_icons_stroke_color">#939393</color>
+    <color name="bottom_icons_stroke_selected_color">#FFFFFF</color>
+
+    <!-- add task block -->
+    <color name="add_task_background_color">#FFFFFF</color>
+    <color name="names_title_color">#111130</color>
+    <color name="names_hint_color">#9D9D9D</color>
+    <color name="internal_text_color">#111130</color>
+    <color name="entered_text_color">#111130</color>
+
+    <!-- Checklist -->
+    <color name="progress_text_color">#8C3B3B3B</color>
+    <color name="checklist_item_stroke_color">#fbfaff</color>
+    <color name="checklist_block_background">#fbfaff</color>
+    <color name="add_item_stroke_color">#e7e8ee</color>
+
+    <!-- Settings activity -->
+    <color name="settings_title_color">#333361</color>
+    <color name="delete_all_completed_task_color">#333361</color>
+    <color name="switch_track_not_active_color">#E4E4E4</color>
+    <color name="switch_thumb_color">#FFFFFF</color>
+    <color name="tdl_background_color">#FFFFFF</color>
+
+    <color name="text_secondary">#808080</color>
+    <color name="link_color">#3D5AFE</color>
+    <color name="input_background">#0C0C16</color>
+    <color name="logout_button_color">#15172A</color>
+    <color name="bubble_yellow">#FFC107</color>
+    <color name="bubble_blue">#2196F3</color>
+    <color name="bubble_red">#FF0000</color>
+
+    <!-- Profile activity -->
+    <color name="circle_background">#49A1D9</color>
+    <color name="button_background_gradient_start">#6E7FDD</color>
+    <color name="button_background_gradient_center">#444E89</color>
+    <color name="button_background_gradient_end">#6E7FDD</color>
+    <color name="button_border_gradient_start">#6E7FDD</color>
+    <color name="button_border_gradient_center">#444E89</color>
+    <color name="button_border_gradient_end">#6E7FDD</color>
+    <color name="icon_color_on_background">#9292AA</color>
+
+    <!-- Routine fragment -->
+    <color name="selected_filter_background_color">#6200EE</color>
+    <color name="rounded_background_for_filter_menu_color">#FFFFFF</color>
+
+    <!-- Status bar and navigation bar colors -->
+    <color name="status_bar_dark">#0C0C16</color>
+    <color name="navigation_bar_dark">#0C0C16</color>
+    <color name="status_bar_light">#FFFFFF</color>
+    <color name="navigation_bar_light">#FFFFFF</color>
+
+</resources>

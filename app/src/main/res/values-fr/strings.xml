@@ -1,0 +1,301 @@
+<resources>
+    <string name="app_name">Task Bloom</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="net_connection">Pas de connexion Internet</string>
+
+    <!--    Event fragment-->
+    <string name="event_fragment_name">Événement</string>
+    <string name="event_task_title">Événement Titre de la tâche</string>
+
+    <!--    Checklist fragment-->
+    <string name="checklist_progress">Fait %1$d de %2$d</string>
+
+    <!--    Bottom sheet fragment-->
+    <string name="checklist_item_delete_message">Vous êtes sûr de vouloir supprimer ce poste ?</string>
+    <string name="title">Titre</string>
+    <string name="item_name">Nom de l\'article</string>
+    <string name="enter_title">Saisir le titre ici</string>
+    <string name="enter_name_here">Inscrire le nom ici</string>
+    <string name="description">Description</string>
+    <string name="enter_description">Saisir la description ici</string>
+    <string name="voice_input">Entrée vocale</string>
+    <string name="due">En temps voulu :</string>
+    <string name="pop_up_edit_task">Modifier</string>
+    <string name="pop_up_delete_task">Supprimer</string>
+
+    <string name="view_location">Voir l\'emplacement</string>
+
+    <!--    Delete alert window-->
+    <string name="delete_message_alert">Êtes-vous sûr de vouloir supprimer cette tâche ?</string>
+    <string name="delete_event_alert">Êtes-vous sûr de vouloir supprimer cet événement ?</string>
+    <string name="checklist_delete_message">Êtes-vous sûr de vouloir supprimer cette liste de contrôle ?</string>
+    <string name="delete_completed_tasks_alert_title">Supprimer toutes les tâches achevées ?</string>
+    <string name="delete_completed_tasks_alert_message">Cette action supprimera toutes les tâches marquées comme terminées. Êtes-vous sûr de vous ?</string>
+    <string name="delete_checklist_alert_title">Supprimer la liste de contrôle : %1$s</string>
+    <string name="delete_checklist_alert_message">Cette action supprimera la liste de contrôle et tous ses éléments. Êtes-vous sûr ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+    <!--    Empty fields alert-->
+    <string name="empty_title_alert">Le titre ne peut être vide</string>
+    <string name="empty_description_alert">La description ne peut être vide</string>
+    <string name="empty_date_alert">La date ne peut pas être vide. Choisissez une date dans le calendrier !</string>
+    <string name="title_size_alert">Le titre ne doit pas comporter plus de %1$d caractères</string>
+    <string name="checklist_name">le nom de la liste de contrôle ne peut pas être vide</string>
+    <string name="checklist_item_alert">L\'élément de la liste de contrôle ne peut pas être vide</string>
+    <string name="checklist_item_size_alert">l\'élément de la liste de contrôle ne peut pas contenir plus de %1$d caractères</string>
+    <string name="too_much_spaces_alert">Le titre contient trop d\'espaces entre les caractères</string>
+    <string name="too_much_spaces_description_alert">La description contient trop d\'espaces entre les caractères</string>
+
+    <string name="select">Sélectionner</string>
+    <string name="set">Set (jeu de mots)</string>
+    <string name="checklist_standard_name">Liste de contrôle</string>
+
+    <!-- Notifications -->
+    <string name="notification_content_title">Terminez votre tâche :</string>
+    <string name="task_successfully_added">Tâche ajoutée avec succès</string>
+    <string name="task_successfully_deleted">Tâche supprimée avec succès</string>
+    <string name="event_successfully_added">L\'événement a été ajouté avec succès</string>
+    <string name="event_successfully_deleted">Événement supprimé avec succès</string>
+    <string name="checklist_successfully_added">Liste de contrôle ajoutée avec succès</string>
+    <string name="checklist_successfully_deleted">Liste de contrôle supprimée avec succès</string>
+
+
+    <!-- Map Button labels -->
+    <string name="btn_show_location_label">Montrer ma localisation</string>
+    <string name="btn_return_label">Retour</string>
+    <string name="btn_select_location_label">Sélectionner un lieu</string>
+    <string name="btn_continue">Continuer</string>
+    <string name="btn_edit_checklist">Modifier la liste de contrôle</string>
+    <string name="btn_edit_item">Modifier l\'article</string>
+    <string name="btn_delete_checklist">Supprimer la liste de contrôle</string>
+    <string name="btn_delete_item">Supprimer un élément</string>
+    <string name="btn_delete_all_completed_task">Supprimer toutes les tâches achevées</string>
+
+    <!-- Map Marker titles -->
+    <string name="marker_selected_location">Lieu sélectionné</string>
+    <string name="marker_current_location">Votre emplacement</string>
+    <string name="once_title">Une fois</string>
+    <string name="monthly_title">Mensuel</string>
+    <string name="yearly_title">Annuel</string>
+    <string name="add_date_title">Ajouter une date</string>
+    <string name="add_location_title">Ajouter un lieu</string>
+    <string name="low_priority_title">Faible priorité</string>
+    <string name="medium_priority_title">Priorité moyenne</string>
+    <string name="high_priority_title">Priorité élevée</string>
+
+    <!-- Map Toast messages -->
+    <string name="toast_permission_denied">Permission refusée</string>
+    <string name="toast_location_not_retrieved">Impossible de retrouver l\'emplacement</string>
+    <string name="toast_location_set_success">Définition réussie de l\'emplacement</string>
+    <string name="toast_select_location">Veuillez sélectionner le lieu</string>
+
+    <string name="speech_recognition_alert">La reconnaissance vocale n\'est pas prise en charge"</string>
+    <string name="speech_recognition_error">Erreur de reconnaissance vocale :"</string>
+
+    <!--    Settings Activity-->
+    <string name="settings_title">Paramètres</string>
+    <string name="delete_all_completed_tasks">Supprimer toutes les tâches achevées</string>
+    <string name="dark_mode_title">Mode sombre</string>
+    <string name="push_notification_title">Notification push</string>
+    <string name="language_title">Langue</string>
+    <string name="help_title">Aide</string>
+    <string name="about_app_title">À propos de l\'application</string>
+
+    <!--    Language Activity-->
+    <string name="english_title">English</string>
+    <string name="ukrainian_title">Українська</string>
+    <string name="spanish_title">Español</string>
+    <string name="france_title">Français</string>
+
+    <!--    Profile Activity-->
+    <string name="profile_title">Profil</string>
+    <string name="user_name">Roman Krilov</string>
+    <string name="user_nickname">\@romchik</string>
+
+    <string name="label_username">Nom d\'utilisateur</string>
+    <string name="hint_username">\@romchik</string>
+    <string name="label_number">Numéro</string>
+    <string name="hint_number">+380 XX XXX XX XX</string>
+
+    <string name="label_email">E-mail</string>
+    <string name="hint_email">votre@email.com</string>
+
+    <string name="label_password">Mot de passe</string>
+    <string name="hint_password">************</string>
+
+    <string name="forgot_password_reset">Mot de passe oublié ? &#160;<font color="#3D5AFE">Réinitialiser</font></string>
+
+    <string name="reset_word_only">Réinitialiser</string>
+
+    <string name="btn_logout">Se déconnecter</string>
+
+    <string name="previous_date">Jour précédent</string>
+    <string name="next_date">Le jour suivant</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Premier fragment</string>
+    <string name="second_fragment_label">Deuxième fragment</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+
+    <!-- Push notifications -->
+    <string name="notifications_enabled">Les notifications push sont activées</string>
+    <string name="notifications_receiving_condition">Autorisez les notifications dans les paramètres de votre téléphone.</string>
+    <string name="notifications_disabled">Les notifications push sont désactivées</string>
+
+    <!-- text -->
+    <string name="no_tasks_yet">Aucune tâche pour l\'instant.\nAppuyez sur + pour créer</string>
+    <string name="no_checklist_yet">Aucune liste de contrôle pour le moment.\nAppuyez sur + pour créer</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+    <!-- Login Activity -->
+    <string name="welcome_back">Bienvenue à nouveau</string>
+    <string name="choose_login_method">Choisissez une méthode de connexion :</string>
+    <string name="email_hint">Courriel</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="_continue">Continuer</string>
+    <string name="or">Ou</string>
+    <string name="continue_facebook">Continuer avec Facebook</string>
+    <string name="continue_google">Continuer avec Google</string>
+    <string name="email_and_password_required">L\'adresse électronique et le mot de passe sont nécessaires</string>
+    <string name="failed_to_send_verification_email">Échec de l\'envoi de l\'e-mail de vérification</string>
+    <string name="login_error">Erreur de connexion</string>
+    <string name="confirmation_required">Confirmation requise</string>
+    <string name="check_email_to_verify_account">Vérifiez votre email pour vérifier votre compte</string>
+    <string name="email_require">Adresse e-mail requise</string>
+    <string name="link_is_sent">Le lien a déjà été envoyé à l\'adresse e-mail</string>
+
+    <string name="unknown_error">Erreur inconnue</string>
+    <string name="error_no_user">L\'utilisateur ayant envoyé ce message n\'a pas été trouvé</string>
+    <string name="error_invalid_password">Mot de passe incorrect</string>
+    <string name="error_bad_email_format">Format d\'email non valide</string>
+    <string name="error_network">Il y a un problème avec le réseau. Veuillez réessayer plus tard</string>
+    <string name="error_weak_password">Le mot de passe doit comporter au moins 6 caractères</string>
+
+    <string name="cancel">Annuler</string>
+    <string name="loading">Chargement</string>
+
+    <string name="enter_the_code_sent_to_your_number">Saisissez le code envoyé à votre numéro de téléphone :</string>
+    <string name="confirm">Confirmer</string>
+    <string name="didnt_receive_the_code">Vous n\'avez pas reçu le code ?</string>
+    <string name="invalid_code">Code invalide, veuillez cliquer sur le bouton renvoyer le code pour recevoir un nouveau code.</string>
+    <string name="resend">Renvoyer</string>
+    <string name="greeting_one">Avez-vous des événements à\nvenir - anniversaires ? Des anniversaires ?</string>
+    <string name="greeting_second">Programmez-les ici et ils seront automatiquement\najoutés à votre liste de tâches\nquotidiennes.</string>
+    <string name="add_item">Ajouter un article</string>
+    <string name="date_before_today_alert">La date ne peut pas être antérieure à aujourd\'hui</string>
+    <string name="hello_text">Bonjour!</string>
+    <string name="have_a_nice_day">Passe une bonne journée</string>
+
+    <string name="google_sign_in_failed">Échec de la connexion à Google</string>
+    <string name="google_sign_in_cancelled">La connexion Google a été annulée par l\'utilisateur</string>
+    <string name="google_sign_in_developer_error">Erreur de configuration de l\'application</string>
+    <string name="google_sign_in_internal_error">Erreur interne des services Google Play</string>
+    <string name="google_sign_in_failed_unknown">Erreur de connexion Google inconnue</string>
+    <string name="google_sign_in_success">Connexion Google réussie</string>
+    <string name="google_sign_in_failed_firebase_auth">Échec de l\'authentification avec les identifiants Google. Veuillez réessayer.</string>
+
+    <!--    Routine fragment-->
+    <string name="no_routine_tasks_yet">Aucune tâche de routine pour le moment.\nAppuyez sur + pour créer</string>
+    <string name="routine_task_successfully_added">Tâche de routine ajoutée avec succès</string>
+    <string name="routine_task_successfully_deleted">Tâche de routine supprimée avec succès</string>
+    <string name="all_task">Toutes les tâches</string>
+    <string name="daily">Quotidienne</string>
+    <string name="weekly">Hebdomadaire</string>
+    <string name="monthly">Mensuelle</string>
+    <string name="annual">Annuelle</string>
+    <string name="edit_routines">Modifier</string>
+    <string name="delete_routines">Supprimer</string>
+
+    <!--    Profile Activity-->
+    <string name="successfully_logged_out">Vous vous êtes déconnecté avec succès</string>
+    <string name="logout_from_account">Se déconnecter du compte…</string>
+    <string name="edit_name">Modifier le nom</string>
+
+    <!-- Location Permission Dialog Strings -->
+    <string name="location_permission_title">Permission de localisation requise</string>
+    <string name="location_permission_rationale">Cette application a besoin de la permission de localisation pour afficher votre position actuelle sur la carte et vous aider à définir les emplacements des tâches. Cela vous aide à planifier votre journée plus efficacement.</string>
+    <string name="location_permission_denied_message">La permission de localisation est requise pour afficher votre position actuelle. Vous pouvez soit réessayer d\'accorder la permission, soit l\'activer manuellement dans les paramètres de votre appareil.</string>
+    <string name="location_permission_settings_message">La permission de localisation est requise pour afficher votre position actuelle. Veuillez ouvrir les Paramètres et accorder la permission de localisation pour cette application.</string>
+    <string name="location_permission_toast_short">Pour afficher la position, ouvrez Paramètres → Applications → Student Planner → Autorisations → Localisation</string>
+    <string name="grant_permission">Accorder la permission</string>
+    <string name="open_settings">Ouvrir les paramètres</string>
+    <string name="retry_permission">Réessayer la permission</string>
+
+    <!-- Change password -->
+    <string name="change_password_title">Changer le mot de passe</string>
+    <string name="reauthenticate_message">Réauthentifier pour modifier le mot de passe</string>
+    <string name="unlogged_user">L\'utilisateur n\'est pas connecté</string>
+    <string name="both_password_required">Les deux mots de passe sont requis</string>
+
+    <!-- Reset password -->
+    <string name="reset_title">Réinitialiser</string>
+    <string name="forget_password_title">Mot de passe oublié?</string>
+    <string name="reset_password_title">Réinitialiser le mot de passe</string>
+    <string name="new_password_title">Nouveau mot de passe</string>
+    <string name="login_title">Connexion</string>
+    <string name="repeat_password_title">Répéter le nouveau mot de passe</string>
+    <string name="reset_password_question">Êtes-vous sûr de vouloir réinitialiser le mot de passe?</string>
+    <string name="mismatch_passwords_error">Mots de passe incompatibles</string>
+    <string name="invalid_code_error">Code invalide</string>
+    <string name="invalid_link_error">Le lien est invalide ou obsolète</string>
+    <string name="no_data_links_error">Aucun lien de données</string>
+    <string name="password_updated_successfully">Mot de passe mis à jour avec succès</string>
+    <string name="failed_to_update_password_error">Échec de la mise à jour du mot de passe</string>
+
+    <!-- Reauthentication -->
+    <string name="reauthentication_title">Réauthentification</string>
+    <string name="successful_authentication_message">L\'authentification a réussi. Vous pouvez modifier votre mot de passe</string>
+    <string name="error_authentication_message">Erreur d\'authentification. Vérifiez votre adresse e-mail et votre mot de passe</string>
+
+    <!-- AuthLinkHandler -->
+    <string name="unknown_mode_error">Mode d\'action inconnu</string>
+    <string name="unknown_action_error">Action inconnue: </string>
+
+    <!-- Email verification -->
+    <string name="email_verifed">L\'adresse e-mail a été vérifiée avec succès</string>
+    <string name="email_still_not_verifed">L\'adresse e-mail n\'est toujours pas vérifiée.</string>
+    <string name="email_verification_failed">Échec de la vérification de l\'adresse e-mail.</string>
+
+    <string name="recurring_task_update_title">Mettre à jour la tâche répétable</string>
+    <string name="recurring_task_update_message">Cette tâche a été créée à partir d\'une routine. Souhaitez-vous mettre à jour uniquement cette tâche ou toutes les tâches futures?</string>
+    <string name="update_only_this_task">Seulement cette tâche</string>
+    <string name="update_all_future_tasks">Toutes les tâches futures</string>
+
+</resources>

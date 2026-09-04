@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+android:color="@color/input_background_color">
+<item>
+    <shape android:shape="rectangle">
+        <solid android:color="@color/rounded_background_for_filter_menu_color" />
+        <corners android:radius="40dp" />
+    </shape>
+</item>
+</ripple>

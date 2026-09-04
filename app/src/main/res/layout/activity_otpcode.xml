@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_otpcode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.OTPCodeActivity"
+    android:background="@color/screen_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_task_bloom"
+                android:contentDescription="App Logo"/>
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alexandria"
+                android:text="@string/app_name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/login_page_main_text"
+                android:gravity="center"
+                android:paddingStart="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/alexandria"
+            android:text="@string/welcome_back"
+            android:textColor="@color/login_page_main_text"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/enterTheCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_the_code_sent_to_your_number"
+            android:textSize="16sp"
+            android:fontFamily="@font/sfprotext"
+            android:textColor="#6D6D6D"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="start"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="32dp"
+            android:id="@+id/otpContainer">
+
+            <EditText
+                android:id="@+id/otp1"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColorHint="@color/otp_border_inactive"
+                android:inputType="number"
+                android:hint="0"
+                android:maxLength="1"
+                android:background="@drawable/otp_background_selector"
+                android:textColor="@color/otp_border_active"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"/>
+
+            <EditText
+                android:id="@+id/otp2"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColorHint="@color/otp_border_inactive"
+                android:inputType="number"
+                android:hint="0"
+                android:maxLength="1"
+                android:background="@drawable/otp_background_selector"
+                android:textColor="@color/otp_border_active"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"/>
+
+            <EditText
+                android:id="@+id/otp3"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColorHint="@color/otp_border_inactive"
+                android:inputType="number"
+                android:hint="0"
+                android:maxLength="1"
+                android:background="@drawable/otp_background_selector"
+                android:textColor="@color/otp_border_active"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"/>
+
+            <EditText
+                android:id="@+id/otp4"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColorHint="@color/otp_border_inactive"
+                android:inputType="number"
+                android:hint="0"
+                android:maxLength="1"
+                android:background="@drawable/otp_background_selector"
+                android:textColor="@color/otp_border_active"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"/>
+
+            <EditText
+                android:id="@+id/otp5"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColorHint="@color/otp_border_inactive"
+                android:inputType="number"
+                android:hint="0"
+                android:maxLength="1"
+                android:background="@drawable/otp_background_selector"
+                android:textColor="@color/otp_border_active"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/invalidCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invalid_code"
+            android:textSize="15sp"
+            android:fontFamily="@font/sfprotext"
+            android:visibility="gone"
+            android:textColor="#FF1C45"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="start"/>
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/sfprotext"
+            android:text="@string/confirm"
+            android:textAllCaps="false"
+            app:backgroundTint="@null"
+            android:backgroundTint="#5555A4"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/didnt_receive_the_code"
+            android:textSize="16sp"
+            android:textColor="#999999"
+            android:fontFamily="@font/sfprotext" />
+
+        <TextView
+            android:id="@+id/resendCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resend"
+            android:textSize="16sp"
+            android:textColor="#7A7ADE"
+            android:fontFamily="@font/sfprotext"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"/>
+    </LinearLayout>
+
+</LinearLayout>

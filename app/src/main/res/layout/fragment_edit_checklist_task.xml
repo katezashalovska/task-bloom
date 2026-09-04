@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:paddingBottom="20dp"
+    android:background="@drawable/bottom_sheet_fragment_bg">
+
+    <!-- Rectangle Image -->
+    <ImageView
+        android:id="@+id/rectangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Description Label -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:gravity="start"
+        android:text="@string/item_name"
+        android:textColor="@color/names_title_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rectangle" />
+
+    <!-- Checklist Title Input Field -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/checklistItemNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingVertical="16dp"
+        android:background="@drawable/rounded_input_border"
+        android:gravity="top"
+        android:maxLines="1"
+        android:minLines="1"
+        android:hint="@string/enter_name_here"
+        android:textColorHint="@color/names_hint_color"
+        android:nestedScrollingEnabled="true"
+        android:overScrollMode="always"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/entered_text_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView"/>
+
+    <!-- Continue Button -->
+    <LinearLayout
+        android:id="@+id/checklistButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/checklistItemNameInput"
+        app:layout_constraintTop_toBottomOf="@+id/checklistItemNameInput">
+
+        <Button
+            android:id="@+id/saveItemNameButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/continue_button_background"
+            android:text="@string/btn_continue"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:gravity="center"
+            app:backgroundTint="@null"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

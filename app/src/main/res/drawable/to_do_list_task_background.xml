@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/added_success_background_color" />
+            <corners android:radius="16dp" />
+            <stroke android:width="1dp" android:color="@color/light_blue_600" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/to_do_list_task_background_color" />
+            <corners android:radius="16dp" />
+            <stroke android:width="1dp" android:color="@color/to_do_list_task_stroke_color" />
+        </shape>
+    </item>
+</selector>

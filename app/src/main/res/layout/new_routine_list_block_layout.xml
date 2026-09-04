@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:background="@android:color/transparent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/to_do_list_task_background">
+
+        <TextView
+            android:id="@+id/routineTaskTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="40dp"
+            android:text="Pay rent"
+            android:textColor="@color/subtitle_text_color"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/iconEditRoutineListBlock"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Pay rent till January"
+            android:textColor="@color/title_text_color"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:maxLines="6"
+            app:layout_constraintStart_toStartOf="@id/routineTaskTitle"
+            app:layout_constraintEnd_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@id/routineTaskTitle"/>
+
+        <TextView
+            android:id="@+id/routineTaskDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="10dp"
+            android:text="Pay rent till January"
+            android:textColor="@color/title_text_color"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/routineTaskTitle"
+            app:layout_constraintTop_toBottomOf="@id/subtitle"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/routineRepetition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="10dp"
+            android:text="Repetion"
+            android:textColor="@color/title_text_color"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/routineTaskDate"
+            app:layout_constraintTop_toBottomOf="@id/subtitle"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ImageView
+            android:id="@+id/iconEditRoutineListBlock"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="7.5dp"
+            android:layout_marginTop="24.5dp"
+            android:layout_marginBottom="23.5dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_edit_to_do_list_block"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="59dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="29dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

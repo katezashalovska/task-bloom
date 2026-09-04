@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:paddingBottom="20dp"
+    android:background="@drawable/bottom_sheet_fragment_bg">
+
+    <ImageView
+        android:id="@+id/rectangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:gravity="start"
+        android:text="@string/description"
+        android:textColor="@color/names_title_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rectangle" />
+
+        <!--    Description Input Field -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/taskDescriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="16dp"
+            android:background="@drawable/rounded_input_border"
+            android:gravity="top"
+            android:maxLines="6"
+            android:minLines="2"
+            android:hint="@string/enter_description"
+            android:textColorHint="@color/names_hint_color"
+            android:nestedScrollingEnabled="true"
+            android:overScrollMode="always"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/entered_text_color"
+            app:layout_constraintBottom_toTopOf="@+id/radioButtonsLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionTextView"/>
+
+    <LinearLayout
+        android:id="@+id/radioButtonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/taskDescriptionInput"/>
+
+    <RadioGroup
+        android:id="@+id/eventTypeRadioGroup"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButtonsLayout">
+
+        <RadioButton
+            android:id="@+id/eventOnce"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/names_title_color"
+            android:textStyle="bold"
+            android:text="@string/once_title"
+            android:buttonTint="@color/loader_screen_background"/>
+
+        <RadioButton
+            android:id="@+id/eventMonthly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.05"
+            android:textSize="16sp"
+            android:textColor="@color/names_title_color"
+            android:textStyle="bold"
+            android:text="@string/monthly_title"
+            android:buttonTint="@color/loader_screen_background"/>
+
+        <RadioButton
+            android:id="@+id/eventYearly"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.95"
+            android:textSize="16sp"
+            android:textColor="@color/names_title_color"
+            android:textStyle="bold"
+            android:text="@string/yearly_title"
+            android:buttonTint="@color/loader_screen_background"/>
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pickDateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/create_to_do_list_button_background"
+        android:text="@string/add_date_title"
+        android:textAllCaps="false"
+        android:textColor="@color/names_title_color"
+        android:textSize="16sp"
+        app:backgroundTint="@null"
+        app:icon="@drawable/ic_calendar_edit"
+        app:iconTint="@color/names_title_color"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventTypeRadioGroup"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="@color/hello_color"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="@+id/pickDateButton"
+        app:layout_constraintTop_toBottomOf="@+id/pickDateButton">
+
+        <Button
+            android:id="@+id/saveTaskButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/continue_button_background"
+            android:text="@string/btn_continue"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:gravity="center"
+            app:backgroundTint="@null"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

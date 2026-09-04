@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "658927924249",
+    "project_id": "task-bloom-ca317",
+    "storage_bucket": "task-bloom-ca317.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658927924249:android:68ca081d7990bef70f2688",
+        "android_client_info": {
+          "package_name": "com.smartfamily.studentplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658927924249-c80sre191o6kl7u489o9cecprqnhhb1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartfamily.studentplanner",
+            "certificate_hash": "8e4be1744a77fc3b2ad91cd8be6daefefe3520f8"
+          }
+        },
+        {
+          "client_id": "658927924249-hj0hh9fe7vsledpnklp9bcnuutbf38th.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartfamily.studentplanner",
+            "certificate_hash": "5d9569dd2a6c78194e0f892eb009092b3be1cc3b"
+          }
+        },
+        {
+          "client_id": "658927924249-pcrgjmbc7feqkvostqe0e8um0rjcuavj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartfamily.studentplanner",
+            "certificate_hash": "13e3bf721ede313b753b080b1337a6b36aab46f1"
+          }
+        },
+        {
+          "client_id": "658927924249-npl7678q2e3hv864c0ik10iqgeguasfp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Jxxu_tzPeHHk0fqoQeGQDp2D6SMBTe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658927924249-npl7678q2e3hv864c0ik10iqgeguasfp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

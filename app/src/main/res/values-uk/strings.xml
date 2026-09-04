@@ -1,0 +1,301 @@
+<resources>
+    <string name="app_name">Task Bloom</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="net_connection">Немає підключення до Інтернету</string>
+
+    <!--    Event fragment-->
+    <string name="event_fragment_name">Подія</string>
+    <string name="event_task_title">Назва події</string>
+
+    <!--    Checklist fragment-->
+    <string name="checklist_progress">Виконано %1$d з %2$d</string>
+
+    <!--    Bottom sheet fragment-->
+    <string name="checklist_item_delete_message">Ви дійсно хочете видалити цей елемент?</string>
+    <string name="title">Заголовок</string>
+    <string name="item_name">Назва</string>
+    <string name="enter_title">Введіть заголовок</string>
+    <string name="enter_name_here">Введіть назву</string>
+    <string name="description">Опис</string>
+    <string name="enter_description">Введіть опис</string>
+    <string name="voice_input">Голосове введення</string>
+    <string name="due">Виконати до:</string>
+    <string name="pop_up_edit_task">Редагувати</string>
+    <string name="pop_up_delete_task">Видалити</string>
+
+    <string name="view_location">Переглянути локацію</string>
+
+    <!--    Delete alert window-->
+    <string name="delete_message_alert">Ви впевнені, що хочете видалити цю задачу?</string>
+    <string name="delete_event_alert">Ви впевнені, що хочете видалити цю подію?</string>
+    <string name="checklist_delete_message">Ви впевнені, що хочете видалити цей список?</string>
+    <string name="delete_completed_tasks_alert_title">Видалити всі виконані задачі?</string>
+    <string name="delete_completed_tasks_alert_message">Ця дія видалить всі задачі, що помічені як виконані. Ви впевнені?</string>
+    <string name="delete_checklist_alert_title">Видалити список: %1$s</string>
+    <string name="delete_checklist_alert_message">Ця дія видалить чек-лист і всі його пункти. Ви впевнені?</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+
+    <!--    Empty fields alert-->
+    <string name="empty_title_alert">Заголовок не може бути порожнім</string>
+    <string name="empty_description_alert">Опис не може бути порожнім</string>
+    <string name="empty_date_alert">Дата не може бути порожньою. Оберіть дату в календарі!</string>
+    <string name="title_size_alert">Заголовок не може містити більше %1$d символів</string>
+    <string name="checklist_name">Назва списку не може бути порожньою</string>
+    <string name="checklist_item_alert">Елемент списку не може бути порожнім</string>
+    <string name="checklist_item_size_alert">Елемент списку не може містити більше %1$d символів</string>
+    <string name="too_much_spaces_alert">Заголовок включає забагато пробiлiв мiж символами</string>
+    <string name="too_much_spaces_description_alert">Опис включає забагато пробiлiв мiж символами</string>
+
+    <string name="select">Обрати</string>
+    <string name="set">Встановити</string>
+    <string name="checklist_standard_name">Список</string>
+
+    <!-- Notifications -->
+    <string name="notification_content_title">Виконайте вашу задачу:</string>
+    <string name="task_successfully_added">Задача успішно додана</string>
+    <string name="task_successfully_deleted">Задача успішно видалена</string>
+    <string name="event_successfully_added">Подія успішно додана</string>
+    <string name="event_successfully_deleted">Подія успішно видалена</string>
+    <string name="checklist_successfully_added">Список успішно доданий</string>
+    <string name="checklist_successfully_deleted">Список успішно видалений</string>
+
+
+    <!-- Map Button labels -->
+    <string name="btn_show_location_label">Показати мою локацію</string>
+    <string name="btn_return_label">Повернутися</string>
+    <string name="btn_select_location_label">Обрати локацію</string>
+    <string name="btn_continue">Продовжити</string>
+    <string name="btn_edit_checklist">Редагувати список</string>
+    <string name="btn_edit_item">Редагувати</string>
+    <string name="btn_delete_checklist">Видалити список</string>
+    <string name="btn_delete_item">Видалити</string>
+    <string name="btn_delete_all_completed_task">Видалити всі виконані задачі</string>
+
+    <!-- Map Marker titles -->
+    <string name="marker_selected_location">Обрана локація</string>
+    <string name="marker_current_location">Ваша локація</string>
+    <string name="once_title">Один раз</string>
+    <string name="monthly_title">Щомісячно</string>
+    <string name="yearly_title">Щорічно</string>
+    <string name="add_date_title">Обрати дату</string>
+    <string name="add_location_title">Локація</string>
+    <string name="low_priority_title">Низький\nпріоритет</string>
+    <string name="medium_priority_title">Середній\nпріоритет</string>
+    <string name="high_priority_title">Високий\nпріоритет</string>
+
+    <!-- Map Toast messages -->
+    <string name="toast_permission_denied">Дозвіл відхилено</string>
+    <string name="toast_location_not_retrieved">Неможливо отримати локацію</string>
+    <string name="toast_location_set_success">Локація успішно встановлена</string>
+    <string name="toast_select_location">Будь ласка, оберіть локацію</string>
+
+    <string name="speech_recognition_alert">Розпізнавання мови не підтримується"</string>
+    <string name="speech_recognition_error">Помилка розпізнавання мови:"</string>
+
+    <!--    Settings Activity-->
+    <string name="settings_title">Налаштування</string>
+    <string name="delete_all_completed_tasks">Видалити всі виконані задачі</string>
+    <string name="dark_mode_title">Нічний режим</string>
+    <string name="push_notification_title">Сповіщення</string>
+    <string name="language_title">Мова</string>
+    <string name="help_title">Допомога</string>
+    <string name="about_app_title">Про додаток</string>
+
+    <!--    Language Activity-->
+    <string name="english_title">English</string>
+    <string name="ukrainian_title">Українська</string>
+    <string name="spanish_title">Español</string>
+    <string name="france_title">Français</string>
+
+    <!--    Profile Activity-->
+    <string name="profile_title">Профіль</string>
+    <string name="user_name">Roman Krilov</string>
+    <string name="user_nickname">\@romchik</string>
+
+    <string name="label_username">Ім’я користувача</string>
+    <string name="hint_username">\@romchik</string>
+    <string name="label_number">Номер</string>
+    <string name="hint_number">+380 XX XXX XX XX</string>
+
+    <string name="label_email">Електронна пошта</string>
+    <string name="hint_email">your@email.com</string>
+
+    <string name="label_password">Пароль</string>
+    <string name="hint_password">************</string>
+
+    <string name="forgot_password_reset">Забули пароль? &#160;<font color="#3D5AFE">Скинути</font></string>
+
+    <string name="reset_word_only">Скинути</string>
+
+    <string name="btn_logout">Вийти</string>
+
+    <string name="previous_date">Попередній день</string>
+    <string name="next_date">Наступний день</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Перший фрагмент</string>
+    <string name="second_fragment_label">Другий фрагмент</string>
+    <string name="next">Наступний</string>
+    <string name="previous">Попередній</string>
+
+    <!-- Push notifications -->
+    <string name="notifications_enabled">Push-сповіщення ввімкнено</string>
+    <string name="notifications_receiving_condition">Для отримання сповіщень, активуйте їх у налаштуваннях телефону.</string>
+    <string name="notifications_disabled">Push-сповіщення вимкнено</string>
+
+    <!-- text -->
+    <string name="no_tasks_yet">Завданнь ще немає.\nНатисніть +, щоб створити</string>
+    <string name="no_checklist_yet">Списку ще немає.\nНатисніть +, щоб створити</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+    <!-- Login Activity -->
+    <string name="welcome_back">З поверненням!</string>
+    <string name="choose_login_method">Виберіть метод входу:</string>
+    <string name="email_hint">Пошта</string>
+    <string name="password_hint">Пароль</string>
+    <string name="_continue">Продовжити</string>
+    <string name="or">Або</string>
+    <string name="continue_facebook">Продовжити з Facebook</string>
+    <string name="continue_google">Продовжити з Google</string>
+    <string name="email_and_password_required">Необхідно ввести електронну пошту та пароль</string>
+    <string name="failed_to_send_verification_email">Не вдалося надіслати електронний лист з підтвердженням</string>
+    <string name="login_error">Помилка входу в систему</string>
+    <string name="confirmation_required">Потрібне підтвердження</string>
+    <string name="check_email_to_verify_account">Перевірте свою електронну пошту, щоб підтвердити обліковий запис</string>
+    <string name="email_require">Необхідно ввести електронну пошту</string>
+    <string name="link_is_sent">Посилання вже вiдправлено на електронну пошту</string>
+
+    <string name="unknown_error">Невідома помилка</string>
+    <string name="error_no_user">Користувача з такою поштою не знайдено</string>
+    <string name="error_invalid_password">Невірний пароль</string>
+    <string name="error_bad_email_format">Невірний формат email</string>
+    <string name="error_network">Проблема з мережею. Спробуйте пізніше</string>
+    <string name="error_weak_password">Пароль має бути щонайменше 6 символів</string>
+
+    <string name="cancel">Скасувати</string>
+    <string name="loading">Завантаження</string>
+
+    <string name="enter_the_code_sent_to_your_number">Введіть код, надісланий на ваш номер телефону:</string>
+    <string name="confirm">Підтвердити</string>
+    <string name="didnt_receive_the_code">Не отримали код? </string>
+    <string name="invalid_code">Невірний код, будь ласка, натисніть кнопку «Повторно надіслати код», щоб отримати новий код.</string>
+    <string name="resend">Повторно надіслати код</string>
+    <string name="greeting_one">Чи є у вас найближчі події - дні народження? Ювілеї?</string>
+    <string name="greeting_second">Заплануйте їх тут, і вони автоматично потраплять до вашого щоденного списку справ</string>
+    <string name="add_item">Додати</string>
+    <string name="date_before_today_alert">Дата не може бути раніше сьогоднішнього дня</string>
+    <string name="hello_text">Привіт!</string>
+    <string name="have_a_nice_day">Гарного дня</string>
+
+    <string name="google_sign_in_failed">Не вдалося ввійти в Google</string>
+    <string name="google_sign_in_cancelled">Вхід у Google скасовано користувачем</string>
+    <string name="google_sign_in_developer_error">Помилка конфігурації програми</string>
+    <string name="google_sign_in_internal_error">Внутрішня помилка сервісів Google Play</string>
+    <string name="google_sign_in_failed_unknown">Невідома помилка входу в Google</string>
+    <string name="google_sign_in_success">Вхід у Google успішний</string>
+    <string name="google_sign_in_failed_firebase_auth">Не вдалося виконати автентифікацію за допомогою облікових даних Google. Спробуйте ще раз.</string>
+
+    <!--    Routine fragment-->
+    <string name="no_routine_tasks_yet">Рутинних завдань ще немає.\nНатисніть +, щоб створити</string>
+    <string name="routine_task_successfully_added">Рутинна задача успішно додана</string>
+    <string name="routine_task_successfully_deleted">Рутинна задача успішно видалена</string>
+    <string name="all_task">Всі задачі</string>
+    <string name="daily">Щоденні</string>
+    <string name="weekly">Щотижневі</string>
+    <string name="monthly">Щомісячні</string>
+    <string name="annual">Щорічні</string>
+    <string name="edit_routines">Редагувати</string>
+    <string name="delete_routines">Видалити</string>
+
+    <!--    Profile Activity-->
+    <string name="successfully_logged_out">Ви успішно вийшли із застосунку</string>
+    <string name="logout_from_account">Вихід з облікового запису…</string>
+    <string name="edit_name">Редагувати ім\'я</string>
+
+    <!-- Location Permission Dialog Strings -->
+    <string name="location_permission_title">Потрібен дозвіл на локацію</string>
+    <string name="location_permission_rationale">Цей додаток потребує дозвіл на локацію, щоб показати ваше поточне місцезнаходження на карті та допомогти вам встановити місця виконання завдань. Це допомагає вам ефективніше планувати свій день.</string>
+    <string name="location_permission_denied_message">Для показу вашого поточного місцезнаходження потрібен дозвіл на локацію. Ви можете спробувати надати дозвіл знову або вручну увімкнути його в налаштуваннях вашого пристрою.</string>
+    <string name="location_permission_settings_message">Для показу вашого поточного місцезнаходження потрібен дозвіл на локацію. Будь ласка, відкрийте Налаштування та надайте дозвіл на локацію для цього додатку.</string>
+    <string name="location_permission_toast_short">Щоб показати локацію, відкрийте Налаштування → Додатки → Student Planner → Дозволи → Місцезнаходження</string>
+    <string name="grant_permission">Надати дозвіл</string>
+    <string name="open_settings">Відкрити налаштування</string>
+    <string name="retry_permission">Повторити дозвіл</string>
+
+    <!-- Change password -->
+    <string name="change_password_title">Змінити пароль</string>
+    <string name="reauthenticate_message">Переаунтефiкуйтеся щоб змiнити пароль</string>
+    <string name="unlogged_user">Користувач не залогований</string>
+    <string name="both_password_required">Необхiхно ввести обидва паролi</string>
+
+    <!-- Reset password -->
+    <string name="reset_title">Скинути</string>
+    <string name="forget_password_title">Забули Пароль?</string>
+    <string name="reset_password_title">Скинути пароль</string>
+    <string name="new_password_title">Новий пароль</string>
+    <string name="login_title">Логiн</string>
+    <string name="repeat_password_title">Повтор нового паролю</string>
+    <string name="reset_password_question">Ви впевненi, що хочете скинути пароль?</string>
+    <string name="mismatch_passwords_error">Паролi не спiвпадають</string>
+    <string name="invalid_code_error">Недійсний код</string>
+    <string name="invalid_link_error">Посилання недійсне або застаріле</string>
+    <string name="no_data_links_error">Немає даних для посилання</string>
+    <string name="password_updated_successfully">Пароль успішно оновлено</string>
+    <string name="failed_to_update_password_error">Не вдалося оновити пароль</string>
+
+    <!-- Reauthentication -->
+    <string name="reauthentication_title">Переаутентифікація</string>
+    <string name="successful_authentication_message">Автентифікація успішна. Ви можете змінити свій пароль</string>
+    <string name="error_authentication_message">Помилка автентифікації. Перевірте свою електронну пошту та пароль</string>
+
+    <!-- AuthLinkHandler -->
+    <string name="unknown_mode_error">Невідомий спосіб дії</string>
+    <string name="unknown_action_error">Невідома дія: </string>
+
+    <!-- Email verification -->
+    <string name="email_verifed">Електронну пошту успішно підтверджено</string>
+    <string name="email_still_not_verifed">Електронна пошта досі не підтверджена</string>
+    <string name="email_verification_failed">Не вдалося перевірити електронну пошту</string>
+
+    <string name="recurring_task_update_title">Оновити повторюване завдання</string>
+    <string name="recurring_task_update_message">Це завдання було створено з рутини. Ви хочете оновити лише це завдання чи всі майбутні?</string>
+    <string name="update_only_this_task">Тільки це завдання</string>
+    <string name="update_all_future_tasks">Усі майбутні завдання</string>
+
+</resources>

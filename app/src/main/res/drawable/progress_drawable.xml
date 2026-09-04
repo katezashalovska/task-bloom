@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Фон прогресс-бара (серый) -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#1A5F5F5F"/> <!-- Светло-серый фон -->
+            <corners android:radius="17dp"/>
+        </shape>
+    </item>
+
+    <!-- Заполненная часть (фиолетовая) -->
+    <item android:id="@android:id/progress">
+        <clip android:clipOrientation="horizontal" android:gravity="left">
+            <shape android:shape="rectangle">
+                <solid android:color="#5555A4"/>
+                <corners android:radius="17dp"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

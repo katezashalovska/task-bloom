@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:background="@android:color/transparent"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="@drawable/to_do_list_task_background">
+
+        <TextView
+            android:id="@+id/eventTaskTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="40dp"
+            android:text="Pay rent"
+            android:textColor="@color/subtitle_text_color"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/iconEditEventListBlock"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/eventTaskDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Pay rent till January"
+            android:textColor="@color/title_text_color"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/eventTaskTitle"
+            app:layout_constraintTop_toBottomOf="@id/eventTaskTitle" />
+
+        <TextView
+            android:id="@+id/eventRepetition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="Additional Text"
+            android:textColor="@color/title_text_color"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@id/eventTaskDate"
+            app:layout_constraintTop_toBottomOf="@id/eventTaskTitle" />
+
+        <ImageView
+            android:id="@+id/iconEditEventListBlock"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="7.5dp"
+            android:layout_marginTop="24.5dp"
+            android:layout_marginBottom="23.5dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_edit_to_do_list_block"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
