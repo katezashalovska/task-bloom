@@ -16,3 +16,12 @@
 .cxx
 local.properties
 /.idea/deviceManager.xml
+
+# IDE settings
+.idea/
+
+# Build outputs (upload .aab to Play Console, not to git)
+*.aab
+*.apk
+/app/release
+/app/debug
